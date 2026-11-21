@@ -1,9 +1,9 @@
 # Bot de exenciones de pago · IT Matehuala
 
-**Prototipo escolar de AutoTec** · Josué Emmanuel Ramírez Cruz (24660080) · Fundamentos de Ingeniería de Software (SCC-1007)
+**Prototipo escolar de AutoTec** · Josué Emmanuel Ramírez Cruz 
 
 Bot de Telegram que entrega **al instante** el link del formulario de exención de pago de reinscripción
-(solo para hijos de trabajadores de la educación). Antes, el alumno mandaba un correo y esperaba de **1 a 6 días**
+(solo para hijos de trabajadores de la educación). Antes, el alumno mandaba un correo y esperaba de **1 a 4 días**
 a que alguien le contestara con el link. El bot confirma los requisitos, entrega el link, muestra los documentos
 y las fechas de pago y recuerda la fecha límite. La revisión de documentos sigue siendo manual, como pidió el área.
 
