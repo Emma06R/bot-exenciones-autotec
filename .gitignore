@@ -1,0 +1,5 @@
+.env
+solicitudes.csv
+recordatorios.json
+__pycache__/
+*.pyc

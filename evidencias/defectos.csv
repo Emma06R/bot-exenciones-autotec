@@ -1,0 +1,6 @@
+﻿ID,Defecto,Como_se_encontro,Gravedad,Correccion,Estado
+D-09,"Con la pregunta de requisitos abierta, «sin dinero» contaba como «sí» y entregaba el link",Prueba exploratoria,Alta,Se compara la primera palabra completa,Corregido
+D-10,«No.» y «no gracias» no contaban como «no»,Prueba exploratoria,Media,Se quitan signos y se compara la primera palabra,Corregido
+D-11,/conteo decía «1 alumnos»,Prueba exploratoria,Baja,Singular o plural,Corregido
+D-12,"«gracias», «información» y «exension» no se entendían",Prueba exploratoria,Baja,Palabras clave nuevas,Corregido
+D-13,Timed out al enviar la imagen de bienvenida,Uso real,Media,"Imagen JPG ligera, se reutiliza en Telegram y más tiempo de espera",Corregido

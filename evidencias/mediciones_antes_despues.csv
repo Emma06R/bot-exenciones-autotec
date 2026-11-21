@@ -1,0 +1,9 @@
+﻿Metrica,Antes,Meta,Despues,Fuente
+Tiempo para recibir el link,1 a 6 días,<= 1 min,Al instante (2 toques después de /start),P3 y P5; casos P-02 y P-16
+Tareas manuales del área antes de la revisión,1,0,0,BPMN AS-IS y TO-BE
+Tareas manuales en el camino normal,10,<= 8,8,BPMN AS-IS y TO-BE
+Esperas por correo,2,1,1,BPMN AS-IS y TO-BE
+Tiempo de respuesta del bot,—,<= 3 s en el 95 %,20 de 20 en < 1 ms de proceso (sin internet),P-16
+Éxito en obtener el link,—,5 de 5 sin ayuda,3 de 3 que reportaron,Prueba de usabilidad
+Defectos críticos abiertos,—,0,0 (5 encontrados y corregidos),Registro de defectos
+Usabilidad (SUS),—,>= 68,85.5,SUS_respuestas.csv

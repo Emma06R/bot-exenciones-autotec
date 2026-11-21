@@ -1,0 +1,18 @@
+P-01 Pasa | /start: imagen + 5 botones · hola: 5 botones
+P-02 Pasa | Botón «Abrir formulario» con https://forms.gle/VkCbxaR4MHLpPcwv9
+P-03 Pasa | 3 de 3 inician la solicitud
+P-04 Pasa | Mensaje «Por ahora no puedes solicitar la exención», sin link, en ambos casos
+P-05 Pasa | Lista con 4 documentos
+P-06 Pasa | Del 23 de noviembre al 4 de diciembre, días que faltan y cuota de $300
+P-07 Pasa | Aviso «cerrada» con próxima apertura (4 de enero de 2027), sin link
+P-08 Pasa | Llega https://forms.gle/NUEVOLINK123
+P-09 Pasa | «¿Qué sigue?» con «de 2 a 3 días»
+P-10 Pasa | Confirma «20 de noviembre de 2026»; aviso agendado 20/11/2026 09:00 y guardado en recordatorios.json
+P-11 Pasa | «No entendí tu mensaje» + menú de 5 botones
+P-12 Pasa | 2 filas (fecha, hora, ID de 10 caracteres, periodo); sin nombre ni ID real
+P-13 Pasa | Autorizado: «2 links entregados a 1 alumno distinto» · no autorizado: «solo para el personal del área»
+P-14 Pasa | No envía link; muestra «En este momento no puedo enviarte el formulario»
+P-15 Pasa | bot.py lee el token de .env; no hay token en el código; el CSV solo tiene IDs anónimos
+P-16 Pasa | 20 de 20; promedio 0.1 ms, máximo 0.3 ms (sin contar el viaje por internet)
+16 de 16 casos pasan
+19/11/2026 17:14

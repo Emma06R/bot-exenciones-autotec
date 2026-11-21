@@ -1,0 +1,7 @@
+﻿Participante,Fecha,C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,Puntaje_SUS,Observaciones
+P1,18/11/2026,3,1,5,3,4,2,3,1,4,2,75.0,
+P2,18/11/2026,5,1,5,2,5,1,3,1,5,1,92.5,
+P3,18/11/2026,5,1,5,1,5,1,5,5,5,1,90.0,C3=5 y C8=5 se contradicen; se respetó la respuesta
+P4,18/11/2026,5,1,4,1,4,2,5,1,5,1,92.5,
+P5,18/11/2026,5,2,5,1,1,5,5,1,5,1,77.5,C5=1 y C6=5 contrastan con su comentario; se respetó la respuesta
+Promedio,,,,,,,,,,,,85.5,Mediana 90
