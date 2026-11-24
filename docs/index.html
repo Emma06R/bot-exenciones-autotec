@@ -196,7 +196,7 @@
     if (/requisito/.test(t)) return bot([{t:"✅ <b>Requisitos</b><br><i>Hijos de trabajadores de la educación</i><br><br>" + REQ},{btn:[[["📝 Pedir formulario","verde"],["🏠 Menú","normal"]]]}]);
     if (/documento/.test(t)) return bot([{t:DOCS},{btn:[[["📝 Pedir formulario","verde"],["🏠 Menú","normal"]]]}]);
     if (/fecha|pago|pagar/.test(t)) return fechas();
-    if (/ayuda/.test(t)) return bot([{t:"❓ <b>Ayuda</b><br><br>Puedes tocar los botones o escribir palabras como:<br><b>formulario</b> · <b>requisitos</b> · <b>documentos</b> · <b>fechas</b><br><br>ℹ️ La revisión de documentos y la autorización las hace el <b>personal del área</b>; este bot solo te orienta y te envía el formulario.<br><br><i>Prototipo escolar de AutoTec con datos de ejemplo.</i>"},{btn:MENU}]);
+    if (/ayuda/.test(t)) return bot([{t:"❓ <b>Ayuda</b><br><br>Puedes tocar los botones o escribir palabras como:<br><b>formulario</b> · <b>requisitos</b> · <b>documentos</b> · <b>fechas</b><br><br>ℹ️ Este bot te orienta y te envía el formulario. Al enviarlo, el sistema revisa tus documentos <b>automáticamente</b> y te contesta por correo.<br><br><i>Prototipo escolar de AutoTec con datos de ejemplo.</i>"},{btn:MENU}]);
     return bot([{t:"🤔 <b>No entendí tu mensaje.</b><br>Elige una opción o escribe, por ejemplo, «formulario»."},{btn:MENU}]);
   }
   function pedirFormulario(){
@@ -210,7 +210,7 @@
     entregas++; $('conteo').textContent = entregas;
     bot([{t:"🎉 <b>Paso 2 de 2 · Tu formulario</b><br><br>Periodo <b>A-D 2026</b> (ejemplo)<br>Toca el botón para abrirlo 👇"},{btn:[[["📄 Abrir formulario","verde",esc(u)]]]},
          {t:DOCS},
-         {t:"⏳ <b>¿Qué sigue?</b><br><br>El personal del área revisa tus documentos y te responde <b>por correo</b>.<br>Normalmente tarda <b>de 2 a 3 días</b>."},{btn:[[["📅 Fechas de pago","azul"],["🏠 Menú","normal"]]]}]);
+         {t:"⏳ <b>¿Qué sigue?</b><br><br>Al enviar el formulario, el sistema <b>revisa tus datos y documentos automáticamente</b> y te manda el resultado <b>por correo</b>, con tu folio.<br>Normalmente llega en <b>unos minutos</b>."},{btn:[[["📅 Fechas de pago","azul"],["🏠 Menú","normal"]]]}]);
   }
   function fechas(){
     const lim = limite(); const ini = new Date(lim); ini.setDate(ini.getDate() - 11);

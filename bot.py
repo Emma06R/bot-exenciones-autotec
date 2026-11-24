@@ -241,8 +241,11 @@ async def entregar_link(update, context):                                  # RF-
                          "Toca el botón para abrirlo 👇",
                  teclado([("📄 Abrir formulario", link)]))
     await enviar(update, DOCUMENTOS)
-    await enviar(update, "⏳ <b>¿Qué sigue?</b>\n\nEl personal del área revisa tus documentos y te responde <b>por correo</b>.\n"
-                         f"Normalmente tarda <b>{html.escape(cfg.get('tiempo_respuesta', 'unos días'))}</b>.",
+    # El formulario se valida solo (Google Apps Script): revisa datos, archivos y contenido y contesta por correo
+    await enviar(update, "⏳ <b>¿Qué sigue?</b>\n\nAl enviar el formulario, el sistema <b>revisa tus datos y tus documentos automáticamente</b> "
+                         "y te manda el resultado <b>por correo</b>, con tu folio.\n"
+                         f"Normalmente llega en <b>{html.escape(cfg.get('tiempo_respuesta', 'unos minutos'))}</b>. "
+                         "Si falta algo, el correo te dice qué corregir.",
                  teclado([("📅 Fechas de pago", "fechas"), ("🏠 Menú", "menu")]))
     registrar_entrega(update.effective_chat.id, cfg.get("periodo", ""))
 
@@ -289,8 +292,8 @@ async def mostrar_fechas(update, context):                                 # RF-
 async def mostrar_ayuda(update, context):
     await enviar(update, "❓ <b>Ayuda</b>\n\nPuedes tocar los botones o escribir palabras como:\n"
                          "<b>formulario</b> · <b>requisitos</b> · <b>documentos</b> · <b>fechas</b>\n\n"
-                         "ℹ️ La revisión de documentos y la autorización las hace el <b>personal del área</b>; "
-                         "este bot solo te orienta y te envía el formulario.\n\n"
+                         "ℹ️ Este bot te orienta y te envía el formulario. Al enviarlo, el sistema revisa tus documentos "
+                         "<b>automáticamente</b> y te contesta por correo.\n\n"
                          "<i>Prototipo escolar de AutoTec con datos de ejemplo.</i>", MENU)
 
 
