@@ -23,6 +23,7 @@ otros días a que revisaran sus documentos. Ahora todo el proceso es automático
 |---|---|
 | ▶️ **Prototipo navegable** (simula el bot en el navegador, siempre disponible) | https://emma06r.github.io/bot-exenciones-autotec/ |
 | 💬 **Bot real en Telegram** (responde mientras la computadora del autor está encendida) | https://t.me/exenciones_autotec_bot |
+| 📝 **Formulario de solicitud** (se valida automáticamente al enviarlo; usa los documentos de prueba de `validacion/documentos_prueba`) | https://forms.gle/BTCfwzEgNkoyLdnN6 |
 | 🎬 **Video de demostración** | https://drive.google.com/file/d/10DF43CK5yEv_NUlRE9To1zvNQKIOxk1Q/view?usp=drivesdk |
 
 Prueba sugerida (la misma que hicieron los 5 usuarios de la prueba de usabilidad):
